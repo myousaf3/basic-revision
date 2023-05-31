@@ -40,7 +40,6 @@ if __name__ == "__main__":
     car1 = factory.create_car(4, "2000cc", 2, True, "Hard", "Efficient")
     car2 = factory.create_car(2, "4000cc", 4, True, "Soft", "Nice")
     car3 = factory.create_car(1, "1000cc", 2, False, "Soft", "Superb")
-    car4 = factory.create_car(3, "3000cc", 2, True, "Soft", "High")
     cars_made = len(factory.get_count())
     print("All cars made from factory: ", cars_made)
     cars_details = factory.car_details()
